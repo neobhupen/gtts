@@ -1,6 +1,3 @@
-#how to make Python speak
-#first you have to open the terminal and type pip install gtts
-
 from gtts import gTTS
 import os
 
@@ -12,5 +9,3 @@ voice_of_gtts = gTTS(text = z, lang = my_language, slow = True)
 #after the slow and = .
 voice_of_gtts.save('voice_of_gtts.mp3')
 os.system('voice_of_gtts.mp3')
-
-#okay thank you
